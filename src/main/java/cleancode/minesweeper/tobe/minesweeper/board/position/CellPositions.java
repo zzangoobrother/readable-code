@@ -14,7 +14,7 @@ public class CellPositions {
         this.positions = positions;
     }
 
-    public static CellPositions of (List<CellPosition> positions) {
+    public static CellPositions of(List<CellPosition> positions) {
         return new CellPositions(positions);
     }
 

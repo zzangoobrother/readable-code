@@ -24,7 +24,7 @@ public class RelativePosition {
         this.deltaCol = deltaCol;
     }
 
-    public static RelativePosition of (int deltaRow, int deltaCol) {
+    public static RelativePosition of(int deltaRow, int deltaCol) {
         return new RelativePosition(deltaRow, deltaCol);
     }
 

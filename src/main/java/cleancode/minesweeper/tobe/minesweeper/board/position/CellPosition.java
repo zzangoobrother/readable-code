@@ -8,7 +8,7 @@ public class CellPosition {
     private final int colIndex;
 
     private CellPosition(int rowIndex, int colIndex) {
-        if (rowIndex < 0 || colIndex <0) {
+        if (rowIndex < 0 || colIndex < 0) {
             throw new IllegalArgumentException("올바르지 않은 좌표입니다.");
         }
         this.rowIndex = rowIndex;
